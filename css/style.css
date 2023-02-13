@@ -321,10 +321,26 @@ li{
 }
 
 .question-list li{
-        padding: 30px 0;
-        /* debug */
-        height: 30px;
-        background-color: darkorange;
-        border: 2px black solid;
+    padding: 30px 0;
+    /* debug */
+    height: 30px;
+     background-color: darkorange;
+     border: 2px black solid;
 }
 
+/* FOOTER */
+footer{
+    background-color: black;
+    /* debug */
+    height: 300px;
+}
+
+.footer-menu{
+    /* debug */
+    height: 300px;
+}
+
+.languages{
+    height: 100px;
+    background-color: burlywood;
+}
