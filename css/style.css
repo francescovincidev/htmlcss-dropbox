@@ -14,12 +14,12 @@ li{
     list-style-type: none;
 }
 
-.content-larger{
+.conteiner-larger{
     width: 60%;
     margin: 0 auto;
 }
 
-.content-smaller{
+.conteiner-smaller{
     width: 50%;
     margin: 0 auto;
 }
@@ -48,6 +48,7 @@ li{
     background-color: #B4D0E7;
     
     padding: 20px 0;
+    margin-bottom: 80px;
     /* debug */
     height: 400px;
 }
@@ -72,9 +73,258 @@ li{
 .jumbo-img{
     width: 60%;
     /* debug */
-    height: 300px;
+    height: 350px;
     background-color: bisque;
+    border: 2px black solid;
+
+}
+
+
+/* MAIN */
+/* plans */
+.plans-title{
+    /* debug */
+    height: 80px;
+    background-color: blueviolet;
+    border: 2px black solid;
+
+}
+
+.invoice-type{
+    /* debug */
+    height: 60px;
+    width: 60%;
+    background-color: coral;
+    border: 2px black solid;
+
+}
+
+.columns{
+    justify-content: space-between;
+    gap: 40px;
+    padding: 40px 0;
+}
+
+.columns > div{
+    width: calc(100%/3);
+
+    /* debug */
+    height: 800px;
+    background-color: greenyellow;
+    border: 2px black solid;
+}
+
+.team-row{
+    /* debug */
+    height: 200px;
+    background-color: greenyellow;
+    border: 2px black solid;
+    
+}
+
+.plan-name{
+    /* debug */
+    height: 10%;
+    background-color: crimson;
+    border: 2px black solid;
+
+}
+
+.advantages{
+    /* debug */
+    height: 50%;
+    background-color: blueviolet;
+    border: 2px black solid;
+
+}
+
+.plan-point{
+    /* debug */
+
+    height: 40%;
+    background-color: brown;
     border: 2px black solid;
 
 
 }
+
+/* findpartner */
+.sub-findpartner{
+    padding: 80px 0;
+}
+.fp-img{
+    width: 60%;
+
+    /* debug */
+    height: 200px;
+    background-color: grey;
+    border: 2px black solid;
+
+}
+
+.fp-text{
+    width: 40%;
+
+    /* debug */
+    height: 200px;
+    background-color: grey;
+    border: 2px black solid;
+
+}
+
+/* operations */
+.operaions-title{
+    /* debug */
+    height: 60px;
+    background-color: pink;
+    border: 2px black solid;
+}
+
+.all-operations{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.single-operation{
+    width: calc(100%/3 - 20px);
+
+    /* debug */
+    height: 300px;
+    background-color: darkcyan;
+    border: 2px black solid;
+}
+
+.op-img{
+
+    /* debug */
+    height: 50%;
+    background-color: beige;
+    border: 2px black solid;
+}
+
+.op-sub-title{
+    /* debug */
+    height: 10%;
+    background-color: cadetblue;
+    border: 2px black solid;
+}
+
+.op-text{
+    /* debug */
+    height: 40%;
+    background-color: aquamarine;
+    border: 2px black solid;
+}
+
+/* teams */
+.teams-title{
+    /* debug */
+    height: 200px;
+    background-color: darkkhaki;
+    border: 2px black solid;
+    margin: 50px auto;
+
+}
+
+/* teams logo left */
+.teams-logo-left{
+    width: calc(100%/3);
+    flex-wrap: wrap;
+    /* debug */
+    height: 400px;
+    background-color: darkkhaki;
+    border: 2px black solid;
+    
+}
+
+.tll-tl, .tll-tr, .tll-bl, .tll-br{
+    width: calc(100%/2);
+     /* debug */
+     height: 200px;
+    background-color: darkred;
+     border: 2px black solid;
+
+
+}
+
+/* teams logo center */
+
+.teams-logo-center{
+    width: calc(100%/3);
+    /* debug */
+    height: 400px;
+    background-color: blueviolet;
+    border: 2px black solid;
+    overflow-y: scroll;
+    
+}
+
+/* teams logo right */
+
+
+.teams-logo-right{
+    width: calc(100%/3);
+    flex-wrap: wrap;
+    /* debug */
+    height: 400px;
+    background-color: darkkhaki;
+    border: 2px black solid;
+    
+}
+
+.tlr-tl, .tlr-tr, .tlr-bl, .tlr-br{
+    width: calc(100%/2);
+     /* debug */
+     height: 200px;
+    background-color: darkred;
+     border: 2px black solid;
+
+
+}
+
+
+/* teams free trial */
+.teams-free-trial{
+    background-color: #B4D0E7;
+    /* debug */
+    height: 200px;
+    padding: 80px 0;
+}
+
+.teams-free-trial-title{
+    width: 60%;
+    /* debug */
+    height: 30px;
+    background-color: darkseagreen;
+    border: 2px black solid;
+}
+
+.teams-free-trial-link{
+    width: 40%;
+    /* debug */
+    height: 30px;
+    background-color: green;
+    border: 2px black solid;
+}
+
+
+/* question */
+.question-title{
+    width: 60%;
+    /* debug */
+    height: 30px;
+    background-color: red;
+    border: 2px black solid;
+
+}
+
+.question-list li{
+        padding: 30px 0;
+        /* debug */
+        height: 30px;
+        background-color: darkorange;
+        border: 2px black solid;
+}
+
