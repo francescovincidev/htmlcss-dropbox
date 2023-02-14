@@ -36,6 +36,7 @@ a{
     padding: 8px 10px;
     background-color: #0061FF;
     color: white;
+
 }
 
 /* HEADER */
@@ -78,9 +79,9 @@ a{
     color: white;
 }
 
-/* jumbotron */ 
+/* jumbotron */
 .jumbotron{
-    background-color: #B4D0E7;  
+    background-color: #B4D0E7;
     padding: 43.33px 0 0;
     margin-bottom: 80px;
 
@@ -127,38 +128,51 @@ h1{
 /* MAIN */
 /* plans */
 .plans-title{
+    padding: 20px 0;
     /* debug */
-    height: 80px;
+    /* height: 80px;
     background-color: blueviolet;
-    border: 2px black solid;
+    border: 2px black solid; */
 
 }
 
 .invoice-type{
+    font-size: 0.8rem;
+    vertical-align: middle;
+    line-height: 1rem;
     /* debug */
-    height: 60px;
+    /* height: 60px;
     width: 60%;
-    background-color: coral;
-    border: 2px black solid;
+    background-color: coral; */
+    
+}
+.invoice-type input{
+    vertical-align: middle;
+}
 
+.first-radio{
+    padding-right: 40px;
+    
 }
 
 .columns{
+    font-size: 0.7rem;
     justify-content: space-between;
-    gap: 40px;
+    gap: 20px;
     padding: 40px 0;
 }
 
 .columns > div{
     width: calc(100%/3);
-
+    
     /* debug */
     height: 800px;
-    background-color: greenyellow;
-    border: 2px black solid;
+    /* background-color: greenyellow; */
+    /* border: 2px black solid; */
 }
 
 .team-row{
+    font-size: 0.7rem;
     /* debug */
     height: 200px;
     background-color: greenyellow;
@@ -167,27 +181,85 @@ h1{
 }
 
 .plan-name{
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 2rem;
+    border: 1px lightgray solid;
     /* debug */
-    height: 10%;
+    /* height: 10%;
     background-color: crimson;
-    border: 2px black solid;
+    border: 2px black solid; */
 
 }
 
 .advantages{
+    border: 1px lightgray solid;
+    padding: 10px;
+
+
+
     /* debug */
-    height: 50%;
+    /* height: 50%;
     background-color: blueviolet;
-    border: 2px black solid;
+    border: 2px black solid; */
 
 }
+
+h3{
+    padding: 5px;
+
+
+}
+.plan-price{
+    padding: 5px;
+
+
+
+}
+
+.price-info{
+    padding: 3px 5px;
+
+
+}
+
+.columns ul{
+    padding: 20px 0;
+    margin-left: 23px;
+
+}
+
+.columns ul li{
+    padding: 5px 0;
+
+}
+
+.plan-button{
+    text-align: center;
+}
+
+.plan-alternative-link{
+    padding: 30px 0;
+
+}
+
+.plan-alternative-link a{
+    color: #0000EE;
+    text-decoration: underline;
+}
+
+.columns hr{
+    width: 30%;
+    margin-left: 10px;
+}
+
 
 .plan-point{
     /* debug */
 
-    height: 40%;
+    /* height: 40%;
     background-color: brown;
-    border: 2px black solid;
+    border: 2px black solid; */
 
 
 }
@@ -280,7 +352,7 @@ h1{
     /* debug */
     background-color: darkkhaki;
     border: 2px black solid;
-    
+
 }
 
 .tll-tl, .tll-tr, .tll-bl, .tll-br{
@@ -302,7 +374,7 @@ h1{
     background-color: blueviolet;
     border: 2px black solid;
     overflow-y: scroll;
-    
+
 }
 
 /* teams logo right */
@@ -315,7 +387,7 @@ h1{
     /* debug */
     background-color: darkkhaki;
     border: 2px black solid;
-    
+
 }
 
 .tlr-tl, .tlr-tr, .tlr-bl, .tlr-br{
