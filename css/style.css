@@ -25,11 +25,13 @@ a{
 .conteiner-larger{
     width: 60%;
     margin: 0 auto;
+    max-width: 1200px;
 }
 
 .conteiner-smaller{
     width: 50%;
     margin: 0 auto;
+    max-width: 1000px;
 }
 
 .blue-button{
@@ -129,30 +131,21 @@ h1{
 /* plans */
 .plans-title{
     padding: 20px 0;
-    /* debug */
-    /* height: 80px;
-    background-color: blueviolet;
-    border: 2px black solid; */
-
 }
 
 .invoice-type{
     font-size: 0.8rem;
     vertical-align: middle;
     line-height: 1rem;
-    /* debug */
-    /* height: 60px;
-    width: 60%;
-    background-color: coral; */
-    
 }
+
 .invoice-type input{
     vertical-align: middle;
 }
 
 .first-radio{
     padding-right: 40px;
-    
+ 
 }
 
 .columns{
@@ -164,63 +157,34 @@ h1{
 
 .columns > div{
     width: calc(100%/3);
-    
-    /* debug */
-    height: 800px;
-    /* background-color: greenyellow; */
-    /* border: 2px black solid; */
+    border: 1px lightgray solid;
 }
 
-.team-row{
-    font-size: 0.7rem;
-    /* debug */
-    height: 200px;
-    background-color: greenyellow;
-    border: 2px black solid;
-    
-}
+
 
 .plan-name{
     font-size: 0.8rem;
     text-align: center;
     line-height: 2rem;
-    border: 1px lightgray solid;
-    /* debug */
-    /* height: 10%;
-    background-color: crimson;
-    border: 2px black solid; */
-
+    border-bottom: 1px lightgray solid;
 }
 
 .advantages{
-    border: 1px lightgray solid;
     padding: 10px;
-
-
-
-    /* debug */
-    /* height: 50%;
-    background-color: blueviolet;
-    border: 2px black solid; */
-
 }
 
 h3{
     padding: 5px;
-
-
 }
 .plan-price{
     padding: 5px;
-
-
-
+    font-weight: bold;
 }
 
 .price-info{
-    padding: 3px 5px;
-
-
+    padding: 3px 5px 20px;
+    font-size: 0.6rem;
+    color: grey;
 }
 
 .columns ul{
@@ -230,17 +194,16 @@ h3{
 }
 
 .columns ul li{
-    padding: 5px 0;
-
+    padding-bottom: 10px;
 }
 
 .plan-button{
     text-align: center;
+    margin: auto 5px 20px;
 }
 
 .plan-alternative-link{
-    padding: 30px 0;
-
+    padding: 0 5px;
 }
 
 .plan-alternative-link a{
@@ -249,19 +212,39 @@ h3{
 }
 
 .columns hr{
-    width: 30%;
-    margin-left: 10px;
+    width: 20%;
+    margin: 20px 15px;
 }
 
 
 .plan-point{
-    /* debug */
+    padding: 10px;
+}
 
-    /* height: 40%;
-    background-color: brown;
-    border: 2px black solid; */
+.plan-point-title{
+    font-weight: bold;
+    padding: 5px;
+}
+.plan-point i{
+    color: #0061FF;
+}
 
+.team-row{
+    font-size: 0.7rem;
+    border: 1px lightgray solid; 
+}
 
+.fourth-name-button{
+    justify-content: space-between;
+}
+
+.fourth-name-button .plan-button{
+    margin:0 5px;
+}
+
+.team-row p{
+    width: 80%;
+    padding: 40px 5px 20px;
 }
 
 /* findpartner */
