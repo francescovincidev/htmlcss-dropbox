@@ -7,7 +7,7 @@
 
 /* COMMON */
 body{
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 .flex{
     display: flex;
@@ -32,6 +32,12 @@ a{
     margin: 0 auto;
 }
 
+.blue-button{
+    padding: 8px 10px;
+    background-color: #0061FF;
+    color: white;
+}
+
 /* HEADER */
 /* menu */
 
@@ -43,34 +49,23 @@ a{
     position: fixed;
     z-index: 5;
     width: 100%;
-
-    
-    /* debug */
-    /* height: 60px; */
-    /* background-color: red; */
+    border-bottom: 1px lightgrey solid;
 }
+
 .left-hdrmenu{
     align-items: center;
 }
-.header-menu li{
-    /* align-items: center; */
-    padding: 0 10px;
 
+.header-menu li{
+    padding: 0 10px;
     font-size: 0.7rem;
-    /* debug */
-    /* width: 60px; */
-    /* height: 30px; */
-    /* border: 2px black solid; */
+
 }
 
 
 
 .header-menu img{
-    /* width: 60%; */
-    /* align-items: center; */
-
     width: 60%;
-
 }
 
 .right-hdrmenu ul{
@@ -81,43 +76,51 @@ a{
     padding: 5px 10px;
     background-color: #0061FF;
     color: white;
-    
 }
 
 /* jumbotron */ 
 .jumbotron{
-    background-color: #B4D0E7;
-    
-    padding: 43.33px 0 20px;
+    background-color: #B4D0E7;  
+    padding: 43.33px 0 0;
     margin-bottom: 80px;
-    /* debug */
-    height: 400px;
+
 }
 
-.main-title{
-    /* debug */
-    height: 60px;
-    background-color: blue;
-    border: 2px black solid;
+h1{
+    padding: 40px 0;
+    font-size: 3rem;
+    font-weight: 800;
 }
 
 .jumbo-text{
     width: 40%;
-    /* debug */
-    height: 300px;
-    background-color: bisque;
-    border: 2px black solid;
+    font-size: 0.7rem;
+}
+
+.jumbo-description{
+    padding: 20px 0;
+}
 
 
+.jumbo-link{
+
+    display: inline-block;
+}
+
+.jumbo-arrow-down{
+    font-size: 2rem;
+    padding: 10px 0 5px;
 }
 
 .jumbo-img{
     width: 60%;
-    /* debug */
-    height: 350px;
-    background-color: bisque;
-    border: 2px black solid;
+    padding: 20px 0 0;
+    margin-bottom: -50px;
+    margin-left: -50px;
+}
 
+.jumbo-img img{
+    width: 120%;
 }
 
 
@@ -271,10 +274,10 @@ a{
 
 /* teams logo left */
 .teams-logo-left{
-    width: calc(100%/3);
+    width: calc(100vw/3);
+    height: calc(100vw/3);
     flex-wrap: wrap;
     /* debug */
-    height: 400px;
     background-color: darkkhaki;
     border: 2px black solid;
     
@@ -282,8 +285,8 @@ a{
 
 .tll-tl, .tll-tr, .tll-bl, .tll-br{
     width: calc(100%/2);
+    height: calc(100%/2);
      /* debug */
-     height: 200px;
     background-color: darkred;
      border: 2px black solid;
 
@@ -293,9 +296,9 @@ a{
 /* teams logo center */
 
 .teams-logo-center{
-    width: calc(100%/3);
+    width: calc(100vw/3);
+    height: calc(100vw/3);
     /* debug */
-    height: 400px;
     background-color: blueviolet;
     border: 2px black solid;
     overflow-y: scroll;
@@ -306,10 +309,10 @@ a{
 
 
 .teams-logo-right{
-    width: calc(100%/3);
+    width: calc(100vw/3);
+    height: calc(100vw/3);
     flex-wrap: wrap;
     /* debug */
-    height: 400px;
     background-color: darkkhaki;
     border: 2px black solid;
     
@@ -317,8 +320,8 @@ a{
 
 .tlr-tl, .tlr-tr, .tlr-bl, .tlr-br{
     width: calc(100%/2);
+    height: calc(100%/2);
      /* debug */
-     height: 200px;
     background-color: darkred;
      border: 2px black solid;
 
