@@ -124,7 +124,6 @@ h1{
     width: 60%;
     padding: 20px 0 0;
     margin-bottom: -50px;
-    margin-left: -50px;
 }
 
 .jumbo-img img{
@@ -150,7 +149,7 @@ h1{
 
 .first-radio{
     padding-right: 40px;
- 
+
 }
 
 .columns{
@@ -236,7 +235,7 @@ h3{
 
 .team-row{
     font-size: 0.7rem;
-    border: 1px lightgray solid; 
+    border: 1px lightgray solid;
 }
 
 .fourth-name-button{
@@ -439,7 +438,7 @@ h3{
 /* question */
 .question-title{
     width: 60%;
-    padding: 60px 0 30px;   
+    padding: 60px 0 30px;
 }
 
 .question{
@@ -479,7 +478,7 @@ li .invisible{
 
 }
 
-    
+
 .question-list li span{
     position: relative;
     right: 1.5rem;
@@ -510,6 +509,7 @@ footer hr{
     margin-left: 20%;
 }
 
+/* languages */
 .languages{
     color: grey;
     font-size: 0.5rem;
