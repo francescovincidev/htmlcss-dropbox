@@ -434,34 +434,65 @@ h3{
 /* question */
 .question-title{
     width: 60%;
-    /* debug */
-    height: 30px;
-    background-color: red;
-    border: 2px black solid;
-
+    padding: 60px 0 30px;   
 }
 
 .question-list li{
     padding: 30px 0;
-    /* debug */
-    height: 30px;
-     background-color: darkorange;
-     border: 2px black solid;
+    font-weight: bold;
+    font-size: 0.7rem;
+    justify-content: space-between;
+     border-top: 1px lightgray solid;
+}
+.question-list li:last-child{
+     border-bottom: 1px lightgray solid;
+     margin-bottom: 80px;
+}
+
+.question-list li span{
+    position: relative;
+    right: 1.5rem;
 }
 
 /* FOOTER */
 footer{
     background-color: black;
-    /* debug */
-    height: 300px;
 }
 
 .footer-menu{
+    color: white;
+    font-size: 0.6rem;
+    line-height: 1.3rem;
+    justify-content: space-between;
+    padding-bottom: 60px;
     /* debug */
-    height: 300px;
+    /* height: 300px; */
 }
 
+.footer-menu li:first-child{
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 40px 0 10px;
+
+}
+
+footer hr{
+    border-color: grey;
+    width: 6%;
+    margin-left: 20%;
+}
+
+
 .languages{
-    height: 100px;
-    background-color: burlywood;
+    color: grey;
+    font-size: 0.5rem;
+    padding: 20px 0;
+    /* height: 100px; */
+    /* background-color: burlywood; */
+}
+
+
+
+.languages span{
+    vertical-align: middle;
 }
