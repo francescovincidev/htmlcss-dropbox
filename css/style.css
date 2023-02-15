@@ -50,6 +50,9 @@ a{
     padding: 10px;
     background-color: white;
     position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     z-index: 5;
     width: 100%;
     border-bottom: 1px lightgrey solid;
@@ -253,68 +256,50 @@ h3{
 }
 .fp-img{
     width: 60%;
+}
 
-    /* debug */
-    height: 200px;
-    background-color: grey;
-    border: 2px black solid;
-
+.fp-img img{
+    width: 100%;
 }
 
 .fp-text{
     width: 40%;
+    padding: 20px;
+}
 
-    /* debug */
-    height: 200px;
-    background-color: grey;
-    border: 2px black solid;
+.fp-text p, .fp-text a{
+    font-size: 0.7rem;
+    margin: 5px;
+}
 
+.fp-button{
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+    margin: 20px 0;
 }
 
 /* operations */
-.operaions-title{
-    /* debug */
-    height: 60px;
-    background-color: pink;
-    border: 2px black solid;
-}
 
 .all-operations{
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 20px;
+    gap: 10px;
     padding: 20px 0;
 }
 
 .single-operation{
-    width: calc(100%/3 - 20px);
-
-    /* debug */
-    height: 300px;
-    background-color: darkcyan;
-    border: 2px black solid;
+    width: calc(100%/3 - 10px);
 }
 
-.op-img{
-
-    /* debug */
-    height: 50%;
-    background-color: beige;
-    border: 2px black solid;
-}
-
-.op-sub-title{
-    /* debug */
-    height: 10%;
-    background-color: cadetblue;
-    border: 2px black solid;
+.op-img img{
+    width: 100%;
 }
 
 .op-text{
-    /* debug */
-    height: 40%;
-    background-color: aquamarine;
-    border: 2px black solid;
+    font-size: 0.7rem;
+    padding: 5px;
 }
 
 /* teams */
@@ -356,7 +341,7 @@ h3{
     /* debug */
     background-color: blueviolet;
     border: 2px black solid;
-    overflow-y: scroll;
+    overflow-y: auto;
 
 }
 
