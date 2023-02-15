@@ -65,10 +65,7 @@ a{
 .header-menu li{
     padding: 0 10px;
     font-size: 0.7rem;
-
 }
-
-
 
 .header-menu img{
     width: 60%;
@@ -305,92 +302,132 @@ h3{
 /* teams */
 .teams-title{
     /* debug */
-    height: 200px;
-    background-color: darkkhaki;
-    border: 2px black solid;
-    margin: 50px auto;
-
+    /* height: 200px;
+    background-color: darkkhaki; */
+    /* border: 2px black solid; */
+    margin: 100px auto;
 }
 
-/* teams logo left */
-.teams-logo-left{
+.teams-link{
+    font-size: 0.7rem;
+    color: #0000EE;
+    text-decoration: underline;
+    margin: 40px auto;
+}
+
+/* teams logo common */
+.teams-logo img{
+    width: 50%;
+}
+.teams-logo-left img, .teams-logo-right img{
+    filter: invert(100%);
+}
+
+.teams-logo-left, .teams-logo-right{
     width: calc(100vw/3);
     height: calc(100vw/3);
     flex-wrap: wrap;
-    /* debug */
-    background-color: darkkhaki;
-    border: 2px black solid;
 
 }
 
-.tll-tl, .tll-tr, .tll-bl, .tll-br{
+.tll-tl, .tll-tr, .tll-bl, .tll-br, .tlr-tl, .tlr-tr, .tlr-bl, .tlr-br{
     width: calc(100%/2);
     height: calc(100%/2);
-     /* debug */
-    background-color: darkred;
-     border: 2px black solid;
+    justify-content: center;
+    align-items: center;
+}
 
 
+/* teams logo left */
+.tll-tl{
+    background-color: #A2D39B;
+    border: 10px solid #D1E9CD;
+}
+
+.tll-tl img{
+    width: calc(50% + 10px);
+}
+
+.tll-tr{
+    background-color: #61082B;
+}
+
+.tll-bl{
+    background-color: #0093CE;
+}
+
+.tll-br{
+    background-color: #FF1C1C;
 }
 
 /* teams logo center */
-
 .teams-logo-center{
     width: calc(100vw/3);
     height: calc(100vw/3);
-    /* debug */
-    background-color: blueviolet;
-    border: 2px black solid;
+    padding: 35px;
+    background-color: #F5F5F5;
+    font-size: 0.7rem;
     overflow-y: auto;
-
 }
+
+.teams-logo-center hr{
+    width: 20%;
+    margin: 30px 0;
+}
+
+.teams-logo-center p{
+    margin-bottom: 20px;
+}
+
+
 
 /* teams logo right */
-
-
-.teams-logo-right{
-    width: calc(100vw/3);
-    height: calc(100vw/3);
-    flex-wrap: wrap;
-    /* debug */
-    background-color: darkkhaki;
-    border: 2px black solid;
-
+.tlr-tl{
+    background-color: #D5001F;
 }
 
-.tlr-tl, .tlr-tr, .tlr-bl, .tlr-br{
-    width: calc(100%/2);
-    height: calc(100%/2);
-     /* debug */
-    background-color: darkred;
-     border: 2px black solid;
+.tlr-tr{
+    background-color: #B4D0E7;
+}
 
+.tlr-bl{
+    background-color: #0D2481;
+}
 
+.tlr-br{
+    background-color: #FFD830;
 }
 
 
 /* teams free trial */
 .teams-free-trial{
     background-color: #B4D0E7;
-    /* debug */
-    height: 200px;
     padding: 80px 0;
 }
 
 .teams-free-trial-title{
-    width: 60%;
-    /* debug */
-    height: 30px;
-    background-color: darkseagreen;
-    border: 2px black solid;
+    width: 50%;
+}
+
+.teams-free-trial h2{
+    color: #61082B;
 }
 
 .teams-free-trial-link{
-    width: 40%;
-    /* debug */
-    height: 30px;
-    background-color: green;
-    border: 2px black solid;
+    width: 50%;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.teams-free-trial-link a{
+    display: inline-block;
+}
+
+.ft-button{
+    font-size: 0.7rem;
+    background-color: white;
+    padding: 8px 18px;
+
 }
 
 
